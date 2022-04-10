@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
-import payment from "./payment";
+import Payment  from './Payment';
 import Login from './Login';
 import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
 import { auth } from './firebase';
@@ -50,10 +50,10 @@ function App() {
                               </>}
                       />
 
-                      <Route path="/payment" element=
+                      <Route path="/Payment" element=
                               {<>
                                   <Header/>
-                                  <payment/>
+                                  <Payment/>
                               </>}
                       />
 
