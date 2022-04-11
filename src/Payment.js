@@ -5,9 +5,6 @@ import { useStateValue } from './StateProvider';
 function payment() {
   const [{ basket, user }, dispatch] = useStateValue();
 
-
-
-
   return (
     <div className='payment'>
         <div className="payment__container">
@@ -18,7 +15,7 @@ function payment() {
                     </div>
 
                     <div className="payment__address">
-                          {/* <p>{user?.email}</p>   */}
+                          <p>{user?.email}</p>
                     </div>
             </div>
 
